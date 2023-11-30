@@ -1,0 +1,284 @@
+#root {
+  max-width: 1920px;
+  /*margin: 0 auto;
+  padding: 2rem;*/
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  background-color: black;
+  color: white;
+}
+
+.title-text {
+  font-size: 2.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+
+}
+
+.navbar {
+  display: flex;
+  width: 10%;
+  justify-content: space-between;
+  margin-top: .5rem;
+  height: max-content;
+  
+  align-items: center;
+}
+
+.log-btn {
+ font-size: 1.3rem;
+
+}
+
+.signup-btn {
+  
+  color:#646cff;
+}
+
+.signup-btn:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.log-btn:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.detalle-prod {
+  width: max-content;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.list-prod {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.5rem;
+  color: white;
+  background-color: black;
+}
+
+.link-prod {
+  font-size: 1.2rem;
+  margin-top: .5rem;
+  
+  
+}
+
+.link-prod:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.grid-cont {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin: auto auto;
+  width: 90%;
+  border: 1px solid grey;
+  
+}
+
+
+.prod-desc {
+ font-size: 1.2rem;
+ font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
+
+.flex-prod {
+  display: flex;
+  flex-direction: column;
+}
+
+.producto {
+  margin-top: 1rem;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: rgb(81, 0, 128);
+}
+
+
+.login-cont {
+  margin-top: 2rem;
+}
+
+.form-cont {
+  background-color: black;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem 3rem;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 1rem auto;
+}
+
+.btn-submit {
+  width: 30%;
+  margin: 2rem auto;
+  padding: .3rem .1rem;
+  border-radius: 3rem;
+}
+
+.btn-submit:hover {
+  background-color: #64ff92;
+  color: black;
+
+}
+
+.producto-title {
+  width: max-content;
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.descripcion {
+  width: 1200px;
+  margin-top: .5rem;
+  margin-left: 1rem;
+  background-color: black;
+  border: 1px solid grey;
+}
+
+.primera-linea {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  
+}
+
+.segunda-linea {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  
+}
+
+.orden-compra {
+  display: flex;
+}
+
+
+.btn-comprar {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 1rem;
+
+}
+
+.btn-primary {
+  margin-right: 1rem;
+  height: max-content
+}
+
+.btn-primary:hover {
+  background-color: blanchedalmond;
+}
+
+.grid-task {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem 1rem;
+  background-color: black;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  margin: .5rem .3rem;
+  background-color: blanchedalmond;
+  border: 2px solid black;
+}
+
+.task:hover {
+  border: 2px solid blue;
+  
+}
+
+.task-firstline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fffbcd;
+  height: 40px;
+  padding: 0 1rem;
+}
+
+.task-note {
+  min-height: 178px;
+  font-weight: 500;
+  
+}
+
+.task-note p {
+  width: max-content;
+  padding: 0 .5rem;
+  
+}
+
+.task-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 8%;
+}
+
+.icons {
+  color: black;
+}
+
+.icons:hover {
+  color: #555;
+}
+
+.update-note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.update-textarea {
+  width: 99%;
+}
+
+.update-submit {
+  background-color: black;
+  color: white;
+  margin: .3rem 0;
+}
+
+
+.update-submit:hover {
+  background-color: white;
+  color: black;
+}
+
+.notask {
+  height: 500px;
+}
+
+.notask > h1 {
+  width: max-content;
+  margin-top: 150px;
+  margin-left: 650px;
+  
+}
