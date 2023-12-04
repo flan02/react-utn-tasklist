@@ -123,7 +123,7 @@ font-weight: 700;
   display: flex;
   flex-direction: column;
   width: 30%;
-  margin: 1rem auto;
+  margin: .5rem auto;
 }
 
 .btn-submit {
@@ -194,9 +194,15 @@ h1,h2,h3,h4,h5,h6 {
   background-color: blanchedalmond;
 }
 
+.note-cont {
+  width: 100%;
+  height: auto;
+  word-wrap: break-word;
+}
+
 .grid-task {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 33.3% 33.3% 33.3%;
   padding: 1rem 1rem;
   background-color: black;
 }
@@ -272,13 +278,45 @@ h1,h2,h3,h4,h5,h6 {
   color: black;
 }
 
-.notask {
-  height: 500px;
+.home-notask {
+  width: 1875px;
+  margin-top: 2.2rem;
+  /*border: 1px solid yellow;*/
 }
 
-.notask > h1 {
+.home-title {
   width: max-content;
-  margin-top: 150px;
-  margin-left: 650px;
+  margin: 30vh auto;
+  font-size: 3.5rem;
+  /*border: 1px solid red;*/
+}
+
+.main-title {
+  font-size: 5rem;
+}
+
+.msg-added {
+  width: max-content;
+  height: 10px;
+  margin: 0 auto;
+  padding: .2rem 1rem;
+  border-radius: 3rem;
+  color: #64ff92;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  margin-bottom: 2px;
+  
+}
+
+.msg-updated {
+  width: max-content;
+  margin: auto auto;
+  padding: .2rem .5rem;
+  color: wheat;
+  background-color: #222;
   
 }

@@ -2,7 +2,9 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div className="title">
-      <h1 className="title-text">TaskList trabajo integrador final</h1>
+      <h1 className="title-text">
+        TaskList made with React / Vite / localStorage
+      </h1>
       <div className="navbar">
         <Link className="log-btn" to="/">
           Task List
